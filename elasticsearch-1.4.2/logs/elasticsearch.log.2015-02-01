@@ -1,0 +1,53 @@
+[2015-02-01 01:20:26,653][INFO ][node                     ] [Harpy] stopping ...
+[2015-02-01 01:20:26,712][INFO ][node                     ] [Harpy] stopped
+[2015-02-01 01:20:26,712][INFO ][node                     ] [Harpy] closing ...
+[2015-02-01 01:20:26,717][INFO ][node                     ] [Harpy] closed
+[2015-02-01 01:27:43,310][INFO ][node                     ] [Volpan] version[1.4.2], pid[24050], build[927caff/2014-12-16T14:11:12Z]
+[2015-02-01 01:27:43,311][INFO ][node                     ] [Volpan] initializing ...
+[2015-02-01 01:27:43,315][INFO ][plugins                  ] [Volpan] loaded [], sites []
+[2015-02-01 01:27:45,735][WARN ][common.network           ] failed to resolve local host, fallback to loopback
+java.net.UnknownHostException: toshiba: toshiba: unknown error
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1484)
+	at org.elasticsearch.common.network.NetworkUtils.<clinit>(NetworkUtils.java:55)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.<init>(NettyHttpServerTransport.java:159)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:197)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:203)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: java.net.UnknownHostException: toshiba: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1479)
+	... 29 more
+[2015-02-01 01:27:45,911][INFO ][node                     ] [Volpan] initialized
+[2015-02-01 01:27:45,912][INFO ][node                     ] [Volpan] starting ...
+[2015-02-01 01:27:46,051][INFO ][transport                ] [Volpan] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.16.32.87:9300]}
+[2015-02-01 01:27:46,081][INFO ][discovery                ] [Volpan] elasticsearch/ppMJ4WorSgioeoJdnd_6wg
+[2015-02-01 01:27:49,858][INFO ][cluster.service          ] [Volpan] new_master [Volpan][ppMJ4WorSgioeoJdnd_6wg][localhost][inet[/172.16.32.87:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-01 01:27:49,890][INFO ][http                     ] [Volpan] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.16.32.87:9200]}
+[2015-02-01 01:27:49,890][INFO ][node                     ] [Volpan] started
+[2015-02-01 01:27:50,484][INFO ][gateway                  ] [Volpan] recovered [2] indices into cluster_state

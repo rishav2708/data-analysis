@@ -1,0 +1,7 @@
+import requests
+import json
+url="https://graph.facebook.com/BangaloreTrafficPolice/statuses?access_token=CAACEdEose0cBAAPKayQ4EZAZBdM3Ddk6CRXpNiZBDPe7tVhbyjC9DkWCzcjJaWNCHfNzebrrEfQxfH29bVUqBCL6ZBkiqEMiuuiKfmUOlqd6HbOwIPW0HBXQQmBksLPL52ChXJ3irjrmIR7fF5WPX8iqZAZBSCokijOgHNPz2Aioy0HOwFR47WLfdMf618fxtHLlmvzoUMFODhzurROWfhjM69D3Glm6MZD"
+d=requests.get(url).json()
+print d['data'][0].keys()
+for i in d['data']:
+	print i['message'],i['comments']

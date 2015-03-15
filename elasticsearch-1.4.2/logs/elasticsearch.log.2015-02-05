@@ -1,0 +1,60 @@
+[2015-02-05 01:32:27,854][INFO ][node                     ] [Terminus] version[1.4.2], pid[8030], build[927caff/2014-12-16T14:11:12Z]
+[2015-02-05 01:32:27,855][INFO ][node                     ] [Terminus] initializing ...
+[2015-02-05 01:32:27,859][INFO ][plugins                  ] [Terminus] loaded [], sites []
+[2015-02-05 01:32:32,134][WARN ][common.network           ] failed to resolve local host, fallback to loopback
+java.net.UnknownHostException: toshiba: toshiba: unknown error
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1484)
+	at org.elasticsearch.common.network.NetworkUtils.<clinit>(NetworkUtils.java:55)
+	at org.elasticsearch.http.netty.NettyHttpServerTransport.<init>(NettyHttpServerTransport.java:159)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:408)
+	at org.elasticsearch.common.inject.DefaultConstructionProxyFactory$1.newInstance(DefaultConstructionProxyFactory.java:54)
+	at org.elasticsearch.common.inject.ConstructorInjector.construct(ConstructorInjector.java:86)
+	at org.elasticsearch.common.inject.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:98)
+	at org.elasticsearch.common.inject.FactoryProxy.get(FactoryProxy.java:52)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter$1.call(ProviderToInternalFactoryAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:837)
+	at org.elasticsearch.common.inject.ProviderToInternalFactoryAdapter.get(ProviderToInternalFactoryAdapter.java:42)
+	at org.elasticsearch.common.inject.Scopes$1$1.get(Scopes.java:57)
+	at org.elasticsearch.common.inject.InternalFactoryToProviderAdapter.get(InternalFactoryToProviderAdapter.java:45)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:200)
+	at org.elasticsearch.common.inject.InjectorBuilder$1.call(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorImpl.callInContext(InjectorImpl.java:830)
+	at org.elasticsearch.common.inject.InjectorBuilder.loadEagerSingletons(InjectorBuilder.java:193)
+	at org.elasticsearch.common.inject.InjectorBuilder.injectDynamically(InjectorBuilder.java:175)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:110)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:93)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:59)
+	at org.elasticsearch.node.internal.InternalNode.<init>(InternalNode.java:197)
+	at org.elasticsearch.node.NodeBuilder.build(NodeBuilder.java:159)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:70)
+	at org.elasticsearch.bootstrap.Bootstrap.main(Bootstrap.java:203)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:32)
+Caused by: java.net.UnknownHostException: toshiba: unknown error
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:907)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1302)
+	at java.net.InetAddress.getLocalHost(InetAddress.java:1479)
+	... 29 more
+[2015-02-05 01:32:32,547][INFO ][node                     ] [Terminus] initialized
+[2015-02-05 01:32:32,547][INFO ][node                     ] [Terminus] starting ...
+[2015-02-05 01:32:32,763][INFO ][transport                ] [Terminus] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.16.34.173:9300]}
+[2015-02-05 01:32:32,816][INFO ][discovery                ] [Terminus] elasticsearch/27rnIJFTQOmpuc9DHJtH7g
+[2015-02-05 01:32:36,633][INFO ][cluster.service          ] [Terminus] new_master [Terminus][27rnIJFTQOmpuc9DHJtH7g][localhost][inet[/172.16.34.173:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-05 01:32:36,666][INFO ][http                     ] [Terminus] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.16.34.173:9200]}
+[2015-02-05 01:32:36,667][INFO ][node                     ] [Terminus] started
+[2015-02-05 01:32:37,647][INFO ][gateway                  ] [Terminus] recovered [2] indices into cluster_state
+[2015-02-05 16:59:15,129][INFO ][node                     ] [Cloud 9] version[1.4.2], pid[5729], build[927caff/2014-12-16T14:11:12Z]
+[2015-02-05 16:59:15,144][INFO ][node                     ] [Cloud 9] initializing ...
+[2015-02-05 16:59:15,149][INFO ][plugins                  ] [Cloud 9] loaded [], sites []
+[2015-02-05 16:59:19,895][INFO ][node                     ] [Cloud 9] initialized
+[2015-02-05 16:59:19,896][INFO ][node                     ] [Cloud 9] starting ...
+[2015-02-05 16:59:20,170][INFO ][transport                ] [Cloud 9] bound_address {inet[/0:0:0:0:0:0:0:0:9300]}, publish_address {inet[/172.16.40.27:9300]}
+[2015-02-05 16:59:20,215][INFO ][discovery                ] [Cloud 9] elasticsearch/7tTse9pETRC33NOTpE_MMA
+[2015-02-05 16:59:24,028][INFO ][cluster.service          ] [Cloud 9] new_master [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]], reason: zen-disco-join (elected_as_master)
+[2015-02-05 16:59:24,374][INFO ][http                     ] [Cloud 9] bound_address {inet[/0:0:0:0:0:0:0:0:9200]}, publish_address {inet[/172.16.40.27:9200]}
+[2015-02-05 16:59:24,374][INFO ][node                     ] [Cloud 9] started
+[2015-02-05 16:59:25,155][INFO ][gateway                  ] [Cloud 9] recovered [2] indices into cluster_state

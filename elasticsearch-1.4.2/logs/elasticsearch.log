@@ -1,0 +1,756 @@
+[2015-02-06 01:38:04,860][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 01:42:05,148][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 01:46:05,406][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 01:50:05,697][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 01:54:05,997][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 01:58:06,200][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:02:06,489][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:06:06,690][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:10:06,902][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:14:07,147][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:18:07,350][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:22:07,597][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:26:07,843][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:30:08,058][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:34:08,293][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:38:08,545][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:42:08,753][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:46:08,983][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:50:09,204][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:54:09,460][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 02:58:09,697][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:02:09,944][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:06:10,129][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:10:10,351][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:14:10,612][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:18:10,833][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:22:11,047][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:26:11,254][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:30:11,491][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:34:11,735][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:38:11,964][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:42:12,204][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:46:12,461][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:50:12,701][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:54:12,957][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 03:58:13,195][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 04:02:13,441][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 04:06:13,695][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 04:10:13,947][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 04:14:14,202][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 04:18:14,447][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
+[2015-02-06 04:22:14,660][WARN ][cluster.service          ] [Cloud 9] failed to reconnect to node [Cloud 9][7tTse9pETRC33NOTpE_MMA][toshiba][inet[/172.16.40.27:9300]]
+org.elasticsearch.transport.ConnectTransportException: [Cloud 9][inet[/172.16.40.27:9300]] connect_timeout[30s]
+	at org.elasticsearch.transport.netty.NettyTransport.connectToChannels(NettyTransport.java:807)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:741)
+	at org.elasticsearch.transport.netty.NettyTransport.connectToNode(NettyTransport.java:714)
+	at org.elasticsearch.transport.TransportService.connectToNode(TransportService.java:150)
+	at org.elasticsearch.cluster.service.InternalClusterService$ReconnectToNodes.run(InternalClusterService.java:521)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.elasticsearch.common.netty.channel.ConnectTimeoutException: connection timed out: /172.16.40.27:9300
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.processConnectTimeout(NioClientBoss.java:139)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.process(NioClientBoss.java:83)
+	at org.elasticsearch.common.netty.channel.socket.nio.AbstractNioSelector.run(AbstractNioSelector.java:318)
+	at org.elasticsearch.common.netty.channel.socket.nio.NioClientBoss.run(NioClientBoss.java:42)
+	at org.elasticsearch.common.netty.util.ThreadRenamingRunnable.run(ThreadRenamingRunnable.java:108)
+	at org.elasticsearch.common.netty.util.internal.DeadLockProofWorker$1.run(DeadLockProofWorker.java:42)
+	... 3 more
